@@ -25,7 +25,7 @@ focus_tree = {
 				type = infantry_equipment_0
 				amount = 5000
 			}
-			add_stability = -0.4
+			add_stability = -0.2
 		}
 	}
 
@@ -75,6 +75,14 @@ focus_tree = {
 		}
 		prerequisite = { focus = DNR_tyomnyetuchinaddonbassom  }
 		mutually_exclusive = { focus = DNR_konfiskaciyaoruzhiyaunaseleniya  } mutually_exclusive = { focus = DNR_razdatoruzhienaseleniyu  }
+		completion_reward = {
+			add_manpower = 2000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 2000
+			}
+			add_war_support	 = -0.05
+		}
 	}
 
 	#Раздать оружие населению
@@ -89,6 +97,11 @@ focus_tree = {
 		}
 		prerequisite = { focus = DNR_tyomnyetuchinaddonbassom  }
 		mutually_exclusive = { focus = DNR_konfiskaciyaoruzhiyaunaseleniya  } mutually_exclusive = { focus = DNR_vooruzhennyeshahtery  }
+		completion_reward = {
+			add_manpower = 4000
+			add_war_support	 = -0.2
+			add_stability = -0.1
+		}
 	}
 
 	#Усиление Блокпостов
@@ -101,6 +114,83 @@ focus_tree = {
 			FOCUS_FILTER_SPA_CIVIL_WAR
 		}
 		prerequisite = { focus = DNR_tyomnyetuchinaddonbassom  }
+		completion_reward = {
+			hidden_effect = { 
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 9265
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 18473
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 8487
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 18250
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 18675
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 18148
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 18509
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 18530
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 18512
+				}
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+					province = 18513
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 18514
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 15683
+				}
+			}
+			custom_effect_tooltip = DNR_blockpost_tooltip
+		}
 	}
 
 	#Борьба с украинскими диверсантами
@@ -125,6 +215,9 @@ focus_tree = {
 			FOCUS_FILTER_TFV_AUTONOMY
 		}
 		prerequisite = { focus = DNR_tyomnyetuchinaddonbassom  }
+		completion_reward = {
+			    custom_effect_tooltip = DNR_evacuation_tooltip
+		}
 	}
 
 	#Борьба с наводчиками
@@ -150,6 +243,7 @@ focus_tree = {
 			FOCUS_FILTER_WAR_SUPPORT
 		}
 		prerequisite = { focus = DNR_konfiskaciyaoruzhiyaunaseleniya  } prerequisite = { focus = DNR_snovavoyna  }
+		mutually_exclusive = { focus = DNR_narodiarmiya  } mutually_exclusive = { focus = DNR_vosstanovitnarodnoeopolchenie  }
 	}
 
 	#Народ и армия
@@ -172,11 +266,25 @@ focus_tree = {
 		icon = GFX_DNR_osvobozhdenierespublikiotokkupacii
 		x = 7
 		y = 6
+		available = {
+			has_full_control_of_state = 149
+			has_full_control_of_state = 165
+			has_full_control_of_state = 182
+			has_full_control_of_state = 189
+			has_full_control_of_state = 205
+			has_full_control_of_state = 213
+			has_full_control_of_state = 221
+			has_full_control_of_state = 237
+		}
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = DNR_snovavoyna  }
+		completion_reward = {
+			add_war_support	 = 0.3
+			add_political_power = 100
+		}
 	}
 
 	#Очистить умы людей от бандеровской пропаганды
@@ -185,6 +293,16 @@ focus_tree = {
 		icon = GFX_DNR_ochistitumylyudeyotbanderovskoypropagandy
 		x = 6
 		y = 7
+		available = {
+			has_full_control_of_state = 149
+			has_full_control_of_state = 165
+			has_full_control_of_state = 182
+			has_full_control_of_state = 189
+			has_full_control_of_state = 205
+			has_full_control_of_state = 213
+			has_full_control_of_state = 221
+			has_full_control_of_state = 237
+		}
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_USA_CONGRESS
@@ -198,11 +316,25 @@ focus_tree = {
 		icon = GFX_DNR_mobilizaciyanaosvobozhdennyhterritoriyah
 		x = 9
 		y = 7
+		available = {
+			has_full_control_of_state = 149
+			has_full_control_of_state = 165
+			has_full_control_of_state = 182
+			has_full_control_of_state = 189
+			has_full_control_of_state = 205
+			has_full_control_of_state = 213
+			has_full_control_of_state = 221
+			has_full_control_of_state = 237
+		}
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_MANPOWER
 		}
 		prerequisite = { focus = DNR_osvobozhdenierespublikiotokkupacii  }
+		completion_reward = {
+			add_timed_idea = { idea = DNB_mobilization_focus_2  days = 29 }
+			add_manpower = 15000
+		}
 	}
 
 	#Восстановление Донбасса
@@ -211,11 +343,24 @@ focus_tree = {
 		icon = GFX_DNR_vosstanovleniedonbassa
 		x = 4
 		y = 7
+		available = {
+			has_full_control_of_state = 149
+			has_full_control_of_state = 165
+			has_full_control_of_state = 182
+			has_full_control_of_state = 189
+			has_full_control_of_state = 205
+			has_full_control_of_state = 213
+			has_full_control_of_state = 221
+			has_full_control_of_state = 237
+		}
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_INDUSTRY
 		}
 		prerequisite = { focus = DNR_osvobozhdenierespublikiotokkupacii  }
+		completion_reward = {
+			add_timed_idea = { idea = DNB_vosstanovlenie_focus  days = 60 }
+		}
 	}
 
 	#Подготовка к отопительному сезону
@@ -224,6 +369,16 @@ focus_tree = {
 		icon = GFX_DNR_podgotovkakotopitelnomusezonu
 		x = 1
 		y = 9
+		available = {
+			has_full_control_of_state = 149
+			has_full_control_of_state = 165
+			has_full_control_of_state = 182
+			has_full_control_of_state = 189
+			has_full_control_of_state = 205
+			has_full_control_of_state = 213
+			has_full_control_of_state = 221
+			has_full_control_of_state = 237
+		}
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_RESEARCH
@@ -251,6 +406,9 @@ focus_tree = {
 		icon = GFX_DNR_snovavoyna
 		x = 7
 		y = 4
+		available = {
+			has_war = yes
+		}
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_SPA_CIVIL_WAR
@@ -268,6 +426,10 @@ focus_tree = {
 			FOCUS_FILTER_MANPOWER
 		}
 		prerequisite = { focus = DNR_snovavoyna  }
+		completion_reward = {
+			add_timed_idea = { idea = DNB_mobilization_focus  days = 29 }
+			add_manpower = 10000
+		}
 	}
 
 	#Вставай, Донбасс!
@@ -302,6 +464,16 @@ focus_tree = {
 		icon = GFX_DNR_obshchestvennyeraboty
 		x = 5
 		y = 9
+		available = {
+			has_full_control_of_state = 149
+			has_full_control_of_state = 165
+			has_full_control_of_state = 182
+			has_full_control_of_state = 189
+			has_full_control_of_state = 205
+			has_full_control_of_state = 213
+			has_full_control_of_state = 221
+			has_full_control_of_state = 237
+		}
 		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -316,10 +488,23 @@ focus_tree = {
 		x = 3
 		y = 9
 		cost = 1
+		available = {
+			has_full_control_of_state = 149
+			has_full_control_of_state = 165
+			has_full_control_of_state = 182
+			has_full_control_of_state = 189
+			has_full_control_of_state = 205
+			has_full_control_of_state = 213
+			has_full_control_of_state = 221
+			has_full_control_of_state = 237
+		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = DNR_vosstanovleniedonbassa  }
+		completion_reward = {
+			add_timed_idea = { idea = DNB_russian_volonteurs_focus  days = 90 }
+		}
 	}
 
 }

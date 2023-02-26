@@ -56,6 +56,82 @@ ideas = {
 				production_factory_max_efficiency_factor = -0.1
 			}
 		}
+		
+		DNB_mobilization_focus = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_infantry_bonus
+
+			modifier = {
+				weekly_manpower = 2100
+			}
+		}
+		
+		DNB_mobilization_focus_2 = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_manpower_bonus
+
+			modifier = {
+				weekly_manpower = 4800
+			}
+		}
+		
+		DNB_vosstanovlenie_focus = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_generic_build_infrastructure
+
+			modifier = {
+				repair_factor = 0.3
+				production_speed_buildings_factor = 0.3
+			}
+		}
+		
+		DNB_russian_volonteurs_focus = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_generic_build_infrastructure
+
+			modifier = {
+				autonomy_gain = -0.5
+
+				repair_factor = 0.2
+				production_speed_buildings_factor = 0.2
+			}
+		}
 	}
 
 }
