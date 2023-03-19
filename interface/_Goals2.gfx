@@ -1,0 +1,242 @@
+spriteTypes = {
+	##DNR
+	SpriteType = { 
+		name = "GFX_DNR_konfiskaciyaoruzhiyaunaseleniya"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_konfiskaciyaoruzhiyaunaseleniya.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_DNR_tyomnyetuchinaddonbassom"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_tyomnyetuchinaddonbassom.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_DNR_zachtomysrazhaemsya"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_zachtomysrazhaemsya.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_DNR_vooruzhennyeshahtery"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_vooruzhennyeshahtery.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_DNR_razdatoruzhienaseleniyu"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_razdatoruzhienaseleniyu.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_DNR_usilenieblokpostov"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_usilenieblokpostov.dds"
+	}
+ 
+	SpriteType = { 
+		name = "GFX_DNR_borbasukrainskimidiversantami"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_borbasukrainskimidiversantam.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_DNR_evakuaciyanaseleniya"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_evakuaciyanaseleniya.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_DNR_borbasnavodchikami"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_borbasnavodchikami.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_DNR_narodnoosvoboditelnayaarmiyadonbassa"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_narodnoosvoboditelnayaarmiyadonbassa.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_DNR_narodiarmiya"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_narodiarmiya.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_DNR_osvobozhdenierespublikiotokkupacii"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_osvobozhdenierespublikiotokkupacii.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_DNR_ochistitumylyudeyotbanderovskoypropagandy"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_ochistitumylyudeyotbanderovskoypropagandy.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_DNR_mobilizaciyanaosvobozhdennyhterritoriyah"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_mobilizaciyanaosvobozhdennyhterritoriyah.dds"
+	}
+	
+	SpriteType = { 
+		name = "GFX_DNR_vosstanovleniedonbassa"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_vosstanovleniedonbassa.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_DNR_podgotovkakotopitelnomusezonu"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_podgotovkakotopitelnomusezonu.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_DNR_vosstanovitnarodnoeopolchenie"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_vosstanovitnarodnoeopolchenie.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_DNR_snovavoyna"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_snovavoyna.dds"
+	}
+ 
+	SpriteType = { 
+		name = "GFX_DNR_mobilizaciya"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_mobilizaciya.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_DNR_vstavaydonbass"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_vstavaydonbass.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_DNR_bastionborbysnacizmom"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_bastionborbysnacizmom.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_DNR_obshchestvennyeraboty"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_obshchestvennyeraboty.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_DNR_privlechenievolontyorovizrossii"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_privlechenievolontyorovizrossii.dds"
+	}
+ 
+	SpriteType = { 
+		name = "GFX_DNR_hui"
+		texturefile = "gfx/interface/goals/DNR/GFX_DNR_hui.dds"
+	}
+	##LNR
+	SpriteType = {
+		name = "GFX_LNR_konfiskaciyaoruzhiyaunaseleniya"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_konfiskaciyaoruzhiyaunaseleniya.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_tyomnyetuchinaddonbassom"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_tyomnyetuchinaddonbassom.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_zachtomysrazhaemsya"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_zachtomysrazhaemsya.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_vooruzhennyeshahtery"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_vooruzhennyeshahtery.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_razdatoruzhienaseleniyu"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_razdatoruzhienaseleniyu.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_usilenieblokpostov"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_usilenieblokpostov.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_borbasukrainskimidiversantami"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_borbasukrainskimidiversantami.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_evakuaciyanaseleniya"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_evakuaciyanaseleniya.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_borbasnavodchikami"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_borbasnavodchikami.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_narodnoosvoboditelnayaarmiyadonbassa"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_narodnoosvoboditelnayaarmiyadonbassa.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_narodiarmiya"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_narodiarmiya.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_osvobozhdenierespublikiotokkupacii"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_osvobozhdenierespublikiotokkupacii.dds"
+	}
+ 
+	SpriteType = { 
+		name = "GFX_LNR_ochistitumylyudeyotbanderovskoypropagandy"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_ochistitumylyudeyotbanderovskoypropagandy.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_mobilizaciyanaosvobozhdennyhterritoriyah"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_mobilizaciyanaosvobozhdennyhterritoriyah.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_vosstanovleniedonbassa"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_vosstanovleniedonbassa.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_podgotovkakotopitelnomusezonu"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_podgotovkakotopitelnomusezonu.dds"
+	}
+ 
+	SpriteType = { 
+		name = "GFX_LNR_vosstanovitnarodnoeopolchenie"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_vosstanovitnarodnoeopolchenie.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_snovavoyna"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_snovavoyna.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_mobilizaciya"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_mobilizaciya.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_vstavaydonbass"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_vstavaydonbass.dds"
+	}
+ 
+	SpriteType = { 
+		name = "GFX_LNR_bastionborbysnacizmom"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_bastionborbysnacizmom.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_obshchestvennyeraboty"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_obshchestvennyeraboty.dds"
+	}
+ 
+	SpriteType = { 
+		name = "GFX_LNR_privlechenievolontyorovizrossii"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_privlechenievolontyorovizrossii.dds"
+	}
+
+	SpriteType = { 
+		name = "GFX_LNR_hui"
+		texturefile = "gfx/interface/goals/LNR/GFX_LNR_hui.dds"
+	}
+}

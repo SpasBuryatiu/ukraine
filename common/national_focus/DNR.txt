@@ -1,4 +1,4 @@
-focus_tree = {
+	focus_tree = {
 	id = DNR
 	continuous_focus_position = { x = 3190 y = 920 } 
 	country = {
@@ -16,7 +16,7 @@ focus_tree = {
 	#Конфискация оружия у населения
 	focus = {
 		id = DNR_konfiskaciyaoruzhiyaunaseleniya
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_konfiskaciyaoruzhiyaunaseleniya
+		icon =  GFX_DNR_konfiskaciyaoruzhiyaunaseleniya
 		x = 1
 		y = 2
 		cost = 0.8
@@ -39,7 +39,7 @@ focus_tree = {
 	#Тёмные тучи над Донбассом
 	focus = {
 		id = DNR_tyomnyetuchinaddonbassom
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_tyomnyetuchinaddonbassom
+		icon = GFX_DNR_tyomnyetuchinaddonbassom
 		x = 7
 		y = 1
 		cost = 0.145
@@ -57,7 +57,7 @@ focus_tree = {
 	#За что мы сражаемся?
 	focus = {
 		id = DNR_zachtomysrazhaemsya
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_IMAGE_NOT_FOUND
+		icon = GFX_IMAGE_NOT_FOUND
 		x = 13
 		y = 2
 		cost = 0.8
@@ -73,7 +73,7 @@ focus_tree = {
 	#Вооруженные шахтеры
 	focus = {
 		id = DNR_vooruzhennyeshahtery
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_IMAGE_NOT_FOUND
+		icon = GFX_IMAGE_NOT_FOUND
 		x = 3
 		y = 2
 		cost = 0.8
@@ -91,7 +91,7 @@ focus_tree = {
 	#Раздать оружие населению
 	focus = {
 		id = DNR_razdatoruzhienaseleniyu
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_razdatoruzhienaseleniyu
+		icon = GFX_DNR_razdatoruzhienaseleniyu
 		x = 5
 		y = 2
 		cost = 0.8
@@ -109,7 +109,7 @@ focus_tree = {
 	#Усиление Блокпостов
 	focus = {
 		id = DNR_usilenieblokpostov
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_usilenieblokpostov
+		icon = GFX_DNR_usilenieblokpostov
 		x = 7
 		y = 2
 		cost = 0.8
@@ -126,7 +126,7 @@ focus_tree = {
 	#Борьба с украинскими диверсантами
 	focus = {
 		id = DNR_borbasukrainskimidiversantami
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_borbasukrainskimidiversantami
+		icon = GFX_DNR_borbasukrainskimidiversantami
 		x = 9
 		y = 2
 		cost = 1
@@ -142,7 +142,7 @@ focus_tree = {
 	#Эвакуация населения
 	focus = {
 		id = DNR_evakuaciyanaseleniya
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_evakuaciyanaseleniya
+		icon = GFX_DNR_evakuaciyanaseleniya
 		x = 11
 		y = 2
 		cost = 0.8
@@ -159,7 +159,7 @@ focus_tree = {
 	#Борьба с наводчиками
 	focus = {
 		id = DNR_borbasnavodchikami
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_borbasnavodchikami
+		icon = GFX_DNR_borbasnavodchikami
 		x = 9
 		y = 3
 		cost = 1
@@ -178,7 +178,7 @@ focus_tree = {
 	#Народно-освободительная армия Донбасса
 	focus = {
 		id = DNR_narodnoosvoboditelnayaarmiyadonbassa
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_narodnoosvoboditelnayaarmiyadonbassa
+		icon = GFX_DNR_narodnoosvoboditelnayaarmiyadonbassa
 		x = 1
 		y = 5
 		cost = 1
@@ -198,7 +198,7 @@ focus_tree = {
 	#Народ и армия
 	focus = {
 		id = DNR_narodiarmiya
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_narodiarmiy
+		icon = GFX_DNR_narodiarmiy
 		x = 3
 		y = 5
 		cost = 1
@@ -219,7 +219,7 @@ focus_tree = {
 	#Освобождение республики от оккупации
 	focus = {
 		id = DNR_osvobozhdenierespublikiotokkupacii
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_osvobozhdenierespublikiotokkupacii
+		icon = GFX_DNR_osvobozhdenierespublikiotokkupacii
 		x = 7
 		y = 6
 		cost = 1
@@ -237,7 +237,7 @@ focus_tree = {
 	#Очистить умы людей от бандеровской пропаганды
 	focus = {
 		id = DNR_ochistitumylyudeyotbanderovskoypropagandy
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_ochistitumylyudeyotbanderovskoypropagandy
+		icon = GFX_DNR_ochistitumylyudeyotbanderovskoypropagandy
 		x = 7
 		y = 7
 		cost = 1
@@ -290,7 +290,7 @@ focus_tree = {
 	#Мобилизация на освобожденных территориях
 	focus = {
 		id = DNR_mobilizaciyanaosvobozhdennyhterritoriyah
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_mobilizaciyanaosvobozhdennyhterritoriyah
+		icon = GFX_DNR_mobilizaciyanaosvobozhdennyhterritoriyah
 		x = 7
 		y = 8
 		cost = 1
@@ -307,7 +307,7 @@ focus_tree = {
 	#Восстановление Донбасса
 	focus = {
 		id = DNR_vosstanovleniedonbassa
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_vosstanovleniedonbassa
+		icon = GFX_DNR_vosstanovleniedonbassa
 		x = 4
 		y = 7
 		cost = 1
@@ -327,7 +327,7 @@ focus_tree = {
 	#Восстановить народное ополчение
 	focus = {
 		id = DNR_vosstanovitnarodnoeopolchenie
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_vosstanovitnarodnoeopolchenie
+		icon = GFX_DNR_vosstanovitnarodnoeopolchenie
 		x = 5
 		y = 5
 		cost = 1
@@ -348,7 +348,7 @@ focus_tree = {
 	#Снова война...
 	focus = {
 		id = DNR_snovavoyna
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_snovavoyna
+		icon = GFX_DNR_snovavoyna
 		x = 7
 		y = 4
 		cost = 1
@@ -366,7 +366,7 @@ focus_tree = {
 	#Мобилизация
 	focus = {
 		id = DNR_mobilizaciya
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_mobilizaciya
+		icon = GFX_DNR_mobilizaciya
 		x = 12
 		y = 5
 		cost = 1
@@ -384,7 +384,7 @@ focus_tree = {
 	#Вставай, Донбасс!
 	focus = {
 		id = DNR_vstavaydonbass
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_vstavaydonbass
+		icon = GFX_DNR_vstavaydonbass
 		x = 12
 		y = 6
 		cost = 1
@@ -404,7 +404,7 @@ focus_tree = {
 	#Бастион борьбы с нацизмом
 	focus = {
 		id = DNR_bastionborbysnacizmom
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_bastionborbysnacizmom
+		icon = GFX_DNR_bastionborbysnacizmom
 		x = 12
 		y = 7
 		cost = 1
@@ -423,7 +423,7 @@ focus_tree = {
 	#Общественные работы
 	focus = {
 		id = DNR_obshchestvennyeraboty
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_obshchestvennyeraboty
+		icon = GFX_DNR_obshchestvennyeraboty
 		x = 4
 		y = 9
 		cost = 1
@@ -439,7 +439,7 @@ focus_tree = {
 	#Привлечение волонтёров из России
 	focus = {
 		id = DNR_privlechenievolontyorovizrossii
-		icon =  GFX_IMAGE_NOT_FOUND #GFX_DNR_privlechenievolontyorovizrossii
+		icon = GFX_DNR_privlechenievolontyorovizrossii
 		x = 4
 		y = 8
 		cost = 1

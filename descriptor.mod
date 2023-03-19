@@ -1,4 +1,4 @@
-name="ukraine"
+name="ukraine dev"
 replace_path="history/countries"
 replace_path="history/states"
 replace_path="history/general"

@@ -509,11 +509,9 @@ start_equipment_factor = 1
 
  }
 
- instant_effect = {
+instant_effect = {
 
-
-
-		add_equipment_to_stockpile = {
+	add_equipment_to_stockpile = {
 		type = train_equipment_1
 		amount = 150
 		producer = LNR

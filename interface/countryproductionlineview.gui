@@ -1,3 +1,8 @@
+@prod_icon_pos_x = 348
+@prod_sub_pos_x = 369
+@prod_add_pos_x = 453
+@prod_nof_pos_x = 388
+
 guiTypes = {
 
 	containerWindowType = {
