@@ -42,7 +42,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/archetypes/archetype_motorized_equipment.dds"
 	}		
 	
-	SpriteType = {
+	SpriteType = {	
 		name = "GFX_archetype_support_equipment_medium"
 		texturefile = "gfx/interface/archetypes/archetype_support_equipment.dds"
 	}	
@@ -7786,35 +7786,35 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_RUS_LRAA1_medium"
-		texturefile = "gfx/interface/technologies/UKR/SA_10_Grumble_R_S300.dds"
+		texturefile = "gfx/interface/technologies/UKR/C-300.dds"
 	}
 	SpriteType = {
 		name = "GFX_RUS_LRAA2_medium"
-		texturefile = "gfx/interface/technologies/RUS1/S_400_triumf.dds"
+		texturefile = "gfx/interface/technologies/RUS/C-400.dds"
 	}
 	SpriteType = {
 		name = "GFX_RUS_LRAA3_medium"
-		texturefile = "gfx/interface/technologies/RUS1/S_500_Prometheus.dds"
+		texturefile = "gfx/interface/technologies/RUS/C-500.dds"
 	}
 	SpriteType = {
 		name = "GFX_RUS_MRAA1_medium"
-		texturefile = "gfx/interface/technologies/RUS1/shilka1.dds"
+		texturefile = "gfx/interface/technologies/RUS/shilka1.dds"
 	}
 	SpriteType = {
 		name = "GFX_RUS_MRAA2_medium"
-		texturefile = "gfx/interface/technologies/RUS1/Pantsir_S1M.dds"
+		texturefile = "gfx/interface/technologies/RUS/Pantsir.dds"
 	}
 	SpriteType = {
 		name = "GFX_RUS_MRAA3_medium"
-		texturefile = "gfx/interface/technologies/RUS1/Pantsir_S2.dds"
+		texturefile = "gfx/interface/technologies/RUS/Pantsir_S2.dds"
 	}
 	SpriteType = {
 		name = "GFX_RUS_HFS1_medium"
-		texturefile = "gfx/interface/technologies/RUS1/solcepek1.dds"
+		texturefile = "gfx/interface/technologies/RUS/Solncepoc1.dds"
 	}
 	SpriteType = {
 		name = "GFX_RUS_HFS2_medium"
-		texturefile = "gfx/interface/technologies/RUS1/Tosochka1.dds"
+		texturefile = "gfx/interface/technologies/RUS/Solncepoc2.dds"
 	}
 	SpriteType = {
 		name = "GFX_RUS_artillery_improvement1_medium"
